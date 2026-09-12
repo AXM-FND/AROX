@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>AXOM CONSTRUCT — Build | Design | Together</title>
+<meta name="description" content="AXOM CONSTRUCT — construction and design company. Spaces that inspire.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="page">
+  <header class="site-header">
+    <button class="hamb" aria-label="Open menu"><span></span><span></span><span></span></button>
+    <a class="brand" href="#home"><span class="mark">A</span><span><b>AXOM</b><small>CONSTRUCT</small></span></a>
+    <a class="quote" href="#contact">Get a Quote</a>
+  </header>
+
+  <aside class="menu">
+    <button class="menu-close">×</button>
+    <a href="#home">Home</a><a href="#projects">Projects</a><a href="#services">Services</a><a href="#about">About</a><a href="#contact">Contact</a>
+  </aside>
+
+  <main>
+    <section class="screen center-screen" id="home">
+      <img src="assets/center-hero.jpg" class="screen-img" alt="">
+      <div class="screen-shade"></div>
+      <div class="screen-top">
+        <button class="mini-hamb"><i></i><i></i><i></i></button>
+        <div class="screen-brand"><span class="mark">A</span><span><b>AXOM</b><small>CONSTRUCT</small></span></div>
+        <a href="#contact">Get a Quote</a>
+      </div>
+      <div class="hero-content">
+        <p>CONSTRUCTING A BRIGHTER TOMORROW</p>
+        <h1>SPACES<br>THAT<br><em>INSPIRE</em></h1>
+        <div class="hero-bottom">
+          <p>We design and build spaces<br>that blend functionality,<br>aesthetics and lasting value.</p>
+          <a class="start" href="#contact">Start Your Project <b>↗</b></a>
+        </div>
+      </div>
+      <div class="screen-no">01</div>
+      <div class="scroll">SCROLL<br><b>↓</b></div>
+    </section>
+
+    <section class="screen left-screen">
+      <div class="left-toolbar"><button>←</button><span>☷</span><span>♙</span></div>
+      <div class="left-inner">
+        <div class="latest-box">
+          <div class="box-title"><h2>Our Latest<br>Projects</h2><a href="#projects">↗</a></div>
+          <div class="left-building"></div>
+        </div>
+        <div class="yellow-brand">
+          <span class="mark dark">A</span><div><b>AXOM CONSTRUCT</b><small>BUILD &nbsp;|&nbsp; DESIGN &nbsp;|&nbsp; TOGETHER</small></div>
+        </div>
+        <div class="expert">
+          <div><h2>Meet<br>Our Experts</h2><a href="#contact">↗</a></div>
+          <div class="expert-photo"></div>
+        </div>
+        <div class="assam"><span>Building a<br><b>Better Assam</b></span></div>
+      </div>
+    </section>
+
+    <section class="screen right-screen" id="projects">
+      <div class="right-toolbar"><span></span><button>⌕</button></div>
+      <h2>OUR<br>CRAFTED<br>SPACES</h2>
+      <div class="project-stack">
+        <div class="stack back"></div><div class="stack mid"></div>
+        <article class="stack front">
+          <div class="stack-copy"><b>Riverside Villa</b><small>Residential &nbsp;|&nbsp; Guwahati</small></div>
+          <div class="right-building"></div>
+          <a href="#contact">↗</a>
+        </article>
+      </div>
+      <div class="tabs"><b>All</b><span>Residential</span><span>Commercial</span><span>Interior</span></div>
+      <nav class="bottom-nav"><a class="active" href="#home">⌂<small>Home</small></a><a href="#projects">⌗<small>Projects</small></a><a href="#services">⚒<small>Services</small></a><a href="#contact">♙<small>Profile</small></a></nav>
+    </section>
+
+    <section class="wide" id="services">
+      <p class="eyebrow">AXOM CONSTRUCT</p>
+      <h2>BUILD · DESIGN · <em>BELONG</em></h2>
+      <div class="service-cards">
+        <article><span>01</span><h3>Architecture & Design</h3><p>From first concept to detailed planning.</p></article>
+        <article><span>02</span><h3>Construction</h3><p>Quality execution with dependable coordination.</p></article>
+        <article><span>03</span><h3>Interior Design</h3><p>Functional spaces with a distinct identity.</p></article>
+      </div>
+    </section>
+
+    <section class="wide about" id="about">
+      <div><p class="eyebrow">ABOUT US</p><h2>We build spaces<br>for a <em>better tomorrow.</em></h2></div>
+      <p>AXOM CONSTRUCT is a construction and design company creating residential, commercial and interior spaces with a focus on thoughtful design, craftsmanship and lasting value.</p>
+    </section>
+
+    <section class="wide contact" id="contact">
+      <div><p class="eyebrow">START A PROJECT</p><h2>Let's build<br>something <em>great.</em></h2></div>
+      <form id="contactForm">
+        <input name="name" required placeholder="Your name">
+        <input name="email" type="email" required placeholder="Email address">
+        <select name="type"><option>Residential</option><option>Commercial</option><option>Interior</option><option>Renovation</option></select>
+        <textarea name="message" rows="4" placeholder="Tell us about your project"></textarea>
+        <button>Request a Consultation ↗</button>
+        <small id="status"></small>
+      </form>
+    </section>
+  </main>
+
+  <footer><div class="footer-brand"><span class="mark dark">A</span><span><b>AXOM CONSTRUCT</b><small>BUILD | DESIGN | TOGETHER</small></span></div><span>© <span id="year"></span> AXOM CONSTRUCT</span></footer>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
